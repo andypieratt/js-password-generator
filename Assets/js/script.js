@@ -1,8 +1,5 @@
 // Assignment code here
 
-function randomLowerCase() {
-  
-}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
