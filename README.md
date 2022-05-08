@@ -18,6 +18,6 @@ Overall, I really enjoyed this challenge because it was definitely "eye-opening.
 
 ## Working Link:
 
-[My Password Generator]()
+[My Password Generator](https://andypieratt.github.io/js-password-generator/)
 
 ## Screenshots of Working Application
