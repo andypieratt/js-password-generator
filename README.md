@@ -21,3 +21,11 @@ Overall, I really enjoyed this challenge because it was definitely "eye-opening.
 [My Password Generator](https://andypieratt.github.io/js-password-generator/)
 
 ## Screenshots of Working Application
+
+[Image 1](./Assets/images/working-app1.png)
+[Image 2](./Assets/images/working-app2.png)
+[Image 3](./Assets/images/working-app3.png)
+[Image 4](./Assets/images/working-app4.png)
+[Image 5](./Assets/images/working-app5.png)
+[Image 6](./Assets/images/working-app6.png)
+[Image 7](./Assets/images/working-app7.png)

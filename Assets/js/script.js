@@ -11,6 +11,7 @@ var numbersArr = ["0123456789"];
 function prompts() {
   // Password Length Prompt
   passwordLength = parseInt(prompt("How many characters would you like your password to be? (Must be between 8 - 128 characters long).")); 
+  // "if" Statements to collect proper selections from user
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
     alert("Length must be a numeric value and between 8 - 128 characters...");
     return false;
@@ -43,8 +44,10 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var passwordChoice = prompts();
+  //Local variables for function.
   var passwordText = document.querySelector("#password");
+  var passwordChoice = prompts();
+  //"if" statement for function
   if (passwordChoice) {
     var password = generatePassword();
     passwordText.value = password;
@@ -54,14 +57,15 @@ function writePassword() {
 }
 
 function generatePassword() {
+  //Local variables for function
   var password = "";
+  //"for" Loop for function to loop decisions based on user's preferred password length.
   for (var i = 0; i < passwordLength; i++) {
     var randomCombo = Math.floor(Math.random() * finalPassword.length);
     password = password + finalPassword[randomCombo];
   }
   return password;
 }
-
 
 // Add event listener to generate button
   generateBtn.addEventListener("click", writePassword);
