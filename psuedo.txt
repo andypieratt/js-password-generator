@@ -1,0 +1,23 @@
+Random Password Generator
+
+As a user, I want to be able to get a randomly generated password of my choice.
+
+I want to be able to decide if my password includes: (Confirmation Statements)
+1. Lowercase characters
+2. Upppercase characters
+3. Symbols (!@#$%&*+=)
+4. Numbers
+
+The length of the users password has to be between 8 - 128 characters...
+* What happens if the user doesn't select a numeric value between those parameters? (ALERT notification)
+- This will be a boolean (true/false) "if" statement most likely.
+
+If the user answers (false) to all the prompts like Lowercase, Upppercase, Symbols, and Numbers. The program should return no result.
+
+If the user answers (true) to at least one of the prompts, the program should execute and return the user their randomly generated password
+
+Main elements I will need to create this app
+1. At least one "prompt" for the user to decide the length of the password.
+2. At least four "confirm" statements to learn what types of characters the user wants in their password
+3. "if" statements for the "confirm" statements to help the program execute the proper functions for the user
+4. A "generatePassword" function that will process the user's responses and return them their password in the text box.

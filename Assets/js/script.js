@@ -35,6 +35,7 @@ function prompts() {
   if (confirm("Do you want numbers included in your password?")) {
     finalPassword = finalPassword + numbersArr;
   }
+  // Returns the proper statements for the preceding functions to execute the user's choices
   return true;
 }
 
@@ -64,6 +65,7 @@ function generatePassword() {
     var randomCombo = Math.floor(Math.random() * finalPassword.length);
     password = password + finalPassword[randomCombo];
   }
+  // Returns the password to the "writePassword" function
   return password;
 }
 
